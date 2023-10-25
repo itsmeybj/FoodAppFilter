@@ -1,0 +1,20 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.filter-wrapper,.filters-group,.products-group{
+    overflow-y: auto;
+}
+
+.filter-wrapper{
+    display:flex;
+    flex: 1;
+}
+.filters-group{
+    flex-basis: 280px ;
+}
+.products-group{
+    flex: 1;
+}
